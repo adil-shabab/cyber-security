@@ -5586,7 +5586,10 @@ Blog Details Area Style
 .blog-details-content .news-content-2 h3 {
   font-size: 24px;
 }
-
+.single-blog-posts img{
+  height: 260px !important;
+  object-fit: cover !important;
+}
 .blog-details-content .single-blog-post-img {
   margin-bottom: 30px;
 }
