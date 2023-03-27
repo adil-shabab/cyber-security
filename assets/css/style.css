@@ -1349,34 +1349,48 @@ Feature Area Style
           box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
   -webkit-transition: all ease 0.5s;
   transition: all ease 0.5s;
+  min-height: 220px;
   background-color: #ffffff;
 }
 
 .single-feature .title {
   position: relative;
   margin-bottom: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .single-feature .title i {
   position: absolute;
-  top: 0;
-  font-size: 50px;
+  top: 12px;
+  left: 85px;
+  font-size: 35px;
   line-height: 1;
   color: #1e95d3;
   -webkit-transition: all ease 0.5s;
   transition: all ease 0.5s;
 }
-
+@media screen and (max-width: 500px) {
+  .single-feature .title i{
+    font-size: 25px;
+    left: 80px !important;
+    top: 37px !important;
+    position: absolute !important;
+  }
+}
 .single-feature .title h3 {
   -webkit-transition: all ease 0.5s;
   transition: all ease 0.5s;
   padding-left: 65px;
+  font-size: px;
   padding-top: 12px;
 }
 
 .single-feature p {
   -webkit-transition: all ease 0.5s;
   transition: all ease 0.5s;
+  font-size: 14px;
   margin-bottom: 0;
 }
 
@@ -6907,3 +6921,34 @@ Tabs Area Style*/
   display: block;
 }
 /*# sourceMappingURL=style.css.map */
+
+
+
+
+.solution_header{
+  margin-top: 90px;
+}
+.solution_header h3{
+  font-size: 30px;
+  color: #1e95d3;
+  margin-bottom: 10px;
+}
+.solution_header .para{
+  font-size: 17px;
+  color: gray;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 500px) {
+  .solution_header h3{
+    font-size: 24px;
+  }
+}
