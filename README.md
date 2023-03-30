@@ -1,2 +1,4 @@
 Click here to see live 👉https://snbgroup.info/👈
-![image](https://user-images.githubusercontent.com/101416092/228737478-4bf1569d-eb88-45f7-a3c5-e4b0325c832b.png)
+<div style="text-align:center; margin-top:50px;">
+  <img src="https://user-images.githubusercontent.com/101416092/228737663-c9e5bdad-511e-4ddc-82be-cae614d31d11.png" alt="SNB Group" />
+</div>
